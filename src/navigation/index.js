@@ -33,7 +33,9 @@ const screens = createStackNavigator(
         borderBottomColor: "transparent",
         elevation: 0, // for android
       },
-      headerBackImage: <Image source={require("../assets/icons/back.png")} />,
+      headerBackImage: (
+        <Image source={require("../../assets/icons/back.png")} />
+      ),
       headerBackTitle: null,
       headerLeftContainerStyle: {
         alignItems: "center",
